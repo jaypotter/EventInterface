@@ -6,5 +6,5 @@ namespace Potter\Event;
 
 interface EventInterface
 {
-
+    public function getId(): string;
 }
